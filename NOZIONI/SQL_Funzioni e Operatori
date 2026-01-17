@@ -1,0 +1,8 @@
+Categoria,Funzione,Descrizione
+Stringhe,"CONCAT(a, ' ', b)",Unisce colonne.
+Stringhe,LIKE '%text%',Cerca sottostringa (% = wildcard).
+Date,"YEAR(data), MONTH(data)",Estrae parte della data.
+Date,"DATEDIFF(d1, d2)",Restituisce intero (giorni di differenza).
+Logica,CASE WHEN c THEN 1 ELSE 0 END,Fondamentale per contare con condizioni.
+Ordinamento,"ORDER BY x DESC, y ASC",Ordinamento multiplo.
+Limiti,LIMIT 5,Prende solo i primi 5 risultati (utile per Top K).

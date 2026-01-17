@@ -1,0 +1,23 @@
+Manipolare le liste velocemente
+
+- Lambda Sorting (Ordinamento personalizzato) Se hai una lista di oggetti o tuple lista = [(A, 10), (B, 5), (C, 20)]:
+
+        lista.sort(key=lambda x: x[1]) → Ordina per il numero crescente (5, 10, 20).
+
+        lista.sort(key=lambda x: x[1], reverse=True) → Decrescente (20, 10, 5).
+
+        max(lista, key=lambda x: x[1]) → Trova l'elemento col numero più alto.
+
+- Set (Insiemi) Utili per rimuovere duplicati o fare operazioni logiche:
+
+        set_a & set_b → Intersezione (elementi in comune).
+
+        set_a - set_b → Differenza (elementi in A ma non in B).
+
+        set_a | set_b → Unione (tutti gli elementi).
+
+- Copia Liste
+
+        b = a → PERICOLO! Se modifichi b, modifichi anche a (è un puntatore).
+
+        b = list(a) o b = a[:] → SICURO. Crea una copia indipendente (utile per il parziale in ricorsione).

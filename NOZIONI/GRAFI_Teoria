@@ -1,0 +1,18 @@
+non si sa mai
+
+
+Grafo Semplice: Niente archi doppi tra A e B, niente auto-anelli (A->A).
+
+Grafo Connesso: Esiste un percorso tra qualsiasi coppia di nodi.
+
+Componente Connessa: Un "isola" del grafo. Se il grafo non è connesso, ne ha più di una.
+
+In codice: nx.connected_components(G) (restituisce liste di nodi).
+
+Grado (Degree): Numero di archi collegati a un nodo.
+
+Weighted Degree: Somma dei pesi degli archi collegati a un nodo.
+
+Shortest Path: Il percorso con la somma dei pesi minima (Dijkstra).
+
+Longest Path: Problema NP-Hard (difficile). Si risolve solo con la ricorsione.

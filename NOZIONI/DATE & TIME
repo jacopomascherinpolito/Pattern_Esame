@@ -1,0 +1,11 @@
+Simbolo,Significato,Esempio
+%Y,Anno (4 cifre),2025
+%y,Anno (2 cifre),25
+%m,Mese (01-12),07
+%d,Giorno (01-31),16
+%H,Ore (00-23),14 (le 2 del pomeriggio)
+%I,Ore (01-12),02 (usato con %p)
+%M,Minuti (00-59),05
+%S,Secondi (00-59),09
+%f,Microsecondi,000123
+%p,AM / PM,PM
