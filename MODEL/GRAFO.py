@@ -12,5 +12,5 @@ def build_graph(self):
     for u, v, w in edges:
         self._graph.add_edge(u, v, weight=w)
 
-    # Extra: Se serve Componente Connessa (iTunes, Artsmia)
+    # Extra: Se serve Componente Connessa
     # connected_components = list(nx.connected_components(self._graph))

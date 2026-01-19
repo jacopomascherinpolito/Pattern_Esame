@@ -3,6 +3,6 @@ Row (Orizzontale),alignment,MainAxisAlignment.CENTER / START / SPACE_BETWEEN
 Row (Orizzontale),vertical_alignment,CrossAxisAlignment.CENTER (per centrare in altezza)
 Column (Verticale),alignment,MainAxisAlignment.CENTER (per centrare in altezza)
 Column (Verticale),horizontal_alignment,CrossAxisAlignment.CENTER (per centrare in larghezza)
-Dropdown,options,"Lista di ft.dropdown.Option(text=""..."", key=""..."")"
+Dropdown,options,"Lista di ft.dropdown.Option(text=""..."", key=""..."")" #
 Tutti,expand,True (occupa tutto lo spazio disponibile)
 Tutti,disabled,"True (grigio, non cliccabile) / False"
